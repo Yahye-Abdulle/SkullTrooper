@@ -20,7 +20,8 @@ function preload() {
 function setup() {
 	createCanvas(windowWidth, windowHeight);
 	zombie_music.setVolume(0.2);
-	zombie_music.play()
+	zombie_music.play();
+	zombie_music.loop();
 	sprites();
 }
 
